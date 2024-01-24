@@ -6,14 +6,14 @@ export const data = [
     img: 'https://i.imgur.com/2xweqrd.png',
     title: "eCommerce App",
     desc: "",
-    link: "",
+    link: "https://asifz-ecommerce-app.vercel.app/",
     git: "",
   },
   {
     id: 2,
     img: 'https://i.imgur.com/FhRMbWP.png',
     title: "Resume Builder",
-    link: "",
+    link: "https://asifz-resume-builder.vercel.app/",
     git: "",
   },
   {
@@ -21,7 +21,7 @@ export const data = [
     img: 'https://i.imgur.com/A1N2kmT.png',
     title: "Blog App",
     desc: "",
-    link: "",
+    link: "https://my-blog-sigma-gray.vercel.app/",
     git: "",
   }
   
@@ -29,9 +29,9 @@ export const data = [
 
 
 export const openWhatsApp = () => {
-  const message = "Hello, Asif!  I wanna hire you."; // Replace with your desired message
+  const message = "Hello, Asif! I wanna hire you."; // Replace with your desired message
 
-  const url = `https://wa.me/${8328669474}?text=${encodeURIComponent(
+  const url = `https://wa.me/${9489732512}?text=${encodeURIComponent(
     message
   )}`;
   window.open(url, "_blank");
@@ -44,8 +44,8 @@ export const openInstagram = () => {
 };
 
 export const openTelegram = () => {
-  const username = '@asif1930'; // Replace with the Telegram username
-  const message = "Hello, Asif!  I wanna hire you."; // Replace with your desired message
+  const username = 'asif1930'; // Replace with the Telegram username
+  const message = "Hello, Asif! I wanna hire you."; // Replace with your desired message
   const url = `https://t.me/${username}?text=${encodeURIComponent(message)}`;
   window.open(url, '_blank');
 };
