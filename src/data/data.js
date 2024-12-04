@@ -1,25 +1,31 @@
+import BlogImage from "../assets/blog.png"
+import ResumeImage from "../assets/resumebuilder.png"
+import ForumImage from "../assets/forum.png"
+
+
 export const data = [
   {
     id: 1,
-    img: "https://i.imgur.com/2xweqrd.png",
-    title: "eCommerce App",
+    img: ForumImage,
+    title: "Asif'z Forum",
     desc: "",
-    link: "https://asifz-ecommerce-app.vercel.app/",
+    link: "https://asifz-forum.netlify.app/",
+    git: "",
+  },
+ 
+  {
+    id: 3,
+    img: BlogImage,
+    title: "Blog App",
+    desc: "",
+    link: 'https://asifz-forum.netlify.app/',
     git: "",
   },
   {
     id: 2,
-    img: "https://i.imgur.com/FhRMbWP.png",
+    img: ResumeImage,
     title: "Resume Builder",
     link: "https://asifz-resume-builder.vercel.app/",
-    git: "",
-  },
-  {
-    id: 3,
-    img: "https://i.imgur.com/A1N2kmT.png",
-    title: "Blog App",
-    desc: "",
-    link: "https://my-blog-sigma-gray.vercel.app/",
     git: "",
   },
 ];

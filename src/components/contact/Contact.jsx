@@ -14,8 +14,6 @@ const Contact = () => {
     window.location.href = `mailto:19asifani30@gmail.com?subject=${'Hire Asif!'}&body=${body}`;
   };
 
-  console.log(formValues)
-
   return (
     <div id="hire-me" className="container m-auto mt-16">
       {/* heading */}

@@ -4,7 +4,8 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
-import resumePDF from "../../assets/AsifsResume.pdf";
+import resumePDF from "../../assets/AsifzResume.pdf";
+import HeroImage from "../../assets/hero.png"
 
 const Hero = () => {
   return (
@@ -100,7 +101,7 @@ const Hero = () => {
             <img
               data-aos="fade-up"
               className=" h-[60%] w-full object-cover md:h-[95%] md:m-auto sm:m-0 rounded-3xl"
-              src="https://i.imgur.com/bx16jNY.jpg"
+              src={HeroImage}
               // src={mine}
               alt="mine"
             />
