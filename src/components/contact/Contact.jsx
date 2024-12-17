@@ -34,7 +34,7 @@ const Contact = () => {
             <div data-aos="zoom-in">
               <h1 className="text-5xl font-bold sm:text-3xl">Hire Me!</h1>
               <h3 className="text-xl sm:text-lg">
-                Innovative designer, transforming ideas into impact.
+                Innovative developer, transforming ideas into impact.
               </h3>
             </div>
           </div>
